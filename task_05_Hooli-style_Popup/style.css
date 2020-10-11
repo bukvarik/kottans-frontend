@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.link {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.appclick {
+  text-decoration: none;
+}
+
+.bell-img {
+  width: 20px;
+}
+
+.apps_box {
+  display: none;
+  right: 20px;
+  position: absolute;
+}
+
+.app_mark {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(211, 211, 211, 0.6);
+  margin-left: 179px;
+}
+
+.apps_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 300px;
+  height: 450px;
+  padding-top: 20px;
+  background-color: white;
+  overflow-y: auto;
+  border: 1px solid rgb(175, 177, 176);
+}
+
+.hidden {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+:checked ~ .apps_box {
+  display: block;
+}
+
+.app_item {
+  margin-left: 15px;
+  padding: 3px;
+  width: 62px;
+}
+
+.app_item_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.app_item:hover {
+  box-shadow: 0 0 5px rgba(211, 211, 211, 0.7);
+}
+
+.app_item:focus {
+  outline: none;
+  box-shadow: 0 0 3px 1px rgb(0, 140, 255);
+}
+
+.img_size {
+  width: 45px;
+}
+
+.more_app {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(211, 211, 211, 0.3);
+}
+
+.label_box2 {
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.input_box_more:checked ~ .more_apps{
+  display: flex;
+}
+
+.more_apps {
+  padding-top: 20px;
+  display: none;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: inherit;
+  height: 250px;
+}
+
+.input_box_more:checked ~ .more_app {
+  box-shadow: none;
+}
+
+.input_box_more:checked ~ .more_app {
+  display: none;
+}
+
+.divider {
+  margin-left: 15px;
+  width: 90%;
+  border-top: 2px solid rgba(211, 211, 211, 0.3);
+  padding-bottom: 20px;
+}
+
+.even-more {
+  text-align: center;
+  width: 100%;
+}
+.even-more__link {
+  color: black;
+  padding: 15px;
+}
