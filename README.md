@@ -14,4 +14,4 @@
 ## Git Collaboration
 
 ![VersionControl](https://github.com/bukvarik/kottans-frontend/blob/master/task_02_task_git_collaboration/task_02_00.png)
-![Workingwithremote](github.com/bukvarik/kottans-frontend/blob/master/task_02_task_git_collaboration/task_02_01.png)
+![Workingwithremote](https://github.com/bukvarik/kottans-frontend/blob/master/task_02_task_git_collaboration/task_02_01.png)
