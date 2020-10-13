@@ -4,9 +4,11 @@
 ![task 0](https://github.com/bukvarik/kottans-frontend/blob/master/task_00/task_00_00.png)
 
 [https://learngitbranching.js.org/]
-
+This course was helpful, i didn't know a lot things about git:
+* How branches works
+* Git fetch
+* Git merge 
 ![task1](https://github.com/bukvarik/kottans-frontend/blob/master/task_00/task_00_01.png)
-
 ![task2](https://github.com/bukvarik/kottans-frontend/blob/master/task_00/task_00_02.png)
 
 
