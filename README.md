@@ -46,7 +46,7 @@ Flexbox froggy was easy, but last exercise was hard
 ## HTML & CSS Practice
 Need to be upload to github.pages
 
-(HTML & CSS practice: Hooli-style Popup)[https://github.com/bukvarik/kottans-frontend/tree/master/task_05_Hooli-style_Popup]
+[HTML & CSS practice: Hooli-style Popup](https://github.com/bukvarik/kottans-frontend/tree/master/task_05_Hooli-style_Popup)
 
 ## JS Basics
 
